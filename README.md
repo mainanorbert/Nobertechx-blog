@@ -4,7 +4,7 @@ Nobertechx blog is a website for writing tech articles. Its is meant to inform u
 - [Technologies Used](#Technologies)
 - [Installation and Usage](#Usage)
 - [Install Frontend](#Frontend)
-- [Install Backend](Backend)
+- [Install Backend](#Backend)
 # Technologies
  - [Laravel](https://laravel.com/docs/10.x/readme)
  - [React Js](https://legacy.reactjs.org/docs/getting-started.html)
