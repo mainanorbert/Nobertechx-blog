@@ -1,0 +1,28 @@
+nav {
+    /* opacity: 0.1; */
+    /* transform: translateY(-100vh); */
+    transition: 1s;
+
+
+}
+
+.mynav {
+    /* background-color: red; */
+    display: none;
+
+}
+
+.text-container {
+   
+    white-space: pre-line;
+}
+
+/* styles.css (or use inline styles) */
+
+.my3d-text {
+    font-size: 3rem;
+    color: #ff00ff; /* Choose your desired color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: perspective(500px) rotateX(50deg);
+  }
+  
