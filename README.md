@@ -13,20 +13,19 @@ Nobertechx blog is a website for writing tech articles. Its is meant to inform u
 # How to Use
 ## Frontend Installation
 1. Clone the repository
-```sh
+   ```sh
    git clone https://github.com/mainanorbert/Nobertechx-blog.git    
 2. Navigate to the directory
-```sh
+   ```sh
    cd centsys
 3. Install the Packages
-```sh
+   ```sh
    npm install
 4. Start server
-```sh
+   ```sh
    npm start
 
 ## Backend Installation
 1. Clone repository `optional` (If not done previously when installing frontend)
-```sh
+   ```sh
    git clone https://github.com/mainanorbert/Nobertechx-blog.git
-
