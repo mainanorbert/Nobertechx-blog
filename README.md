@@ -1,4 +1,25 @@
-# Getting Started with Create React App
+# Nobertechx Blog
+Nobertechx blog is a website for writing tech articles. Its is meant to inform upcoming techies on the journey of tech and the likely challenges to face. The blog also helps to tell techies of the likely challenges one can face in the tech journey
+
+# Technologies
+ - [Laravel](https://laravel.com/docs/10.x/readme)
+ - [React Js](https://legacy.reactjs.org/docs/getting-started.html)
+ - [Tailwind CSS](https://tailwindcss.com/docs/installation)
+
+# How to Use
+1. Clone the repository
+```sh
+   git clone https://github.com/mainanorbert/Nobertechx-blog.git    
+2. Navigate to the directory
+```sh
+   cd centsys
+3. Install the Packages
+```sh
+   npm install
+4. Start server
+```sh
+   npm start
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
