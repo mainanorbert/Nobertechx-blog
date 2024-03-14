@@ -2,16 +2,16 @@
 Nobertechx blog is a website for writing tech articles. Its is meant to inform upcoming techies on the journey of tech and the likely challenges to face. The blog also helps to tell techies of the likely challenges one can face in the tech journey
 ## Table of Contents
 - [Technologies Used](#Technologies)
-- [Installation and Usage](#How to Use)
-- [Install Frontend](#Frontend Installation)
-- [Install Backend](Backend Installation)
+- [Installation and Usage](#Usage)
+- [Install Frontend](#Frontend)
+- [Install Backend](Backend)
 # Technologies
  - [Laravel](https://laravel.com/docs/10.x/readme)
  - [React Js](https://legacy.reactjs.org/docs/getting-started.html)
  - [Tailwind CSS](https://tailwindcss.com/docs/installation)
 
-# How to Use
-## Frontend Installation
+# Usage
+## Frontend
 1. Clone the repository
    ```sh
    git clone https://github.com/mainanorbert/Nobertechx-blog.git    
@@ -25,7 +25,7 @@ Nobertechx blog is a website for writing tech articles. Its is meant to inform u
    ```sh
    npm start
 
-## Backend Installation
+## Backend
 1. Clone repository `optional` (If not done previously when installing frontend)
    ```sh
    git clone https://github.com/mainanorbert/Nobertechx-blog.git
