@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9db93f6c.css",
+    "main.js": "/static/js/main.84ddc321.js",
+    "static/media/download.jpg": "/static/media/download.de9ca52a6faf932ee205.jpg",
+    "static/media/tech.gif": "/static/media/tech.64bde2b1d396f77ca448.gif",
+    "static/media/motivation2.jpg": "/static/media/motivation2.5b7a543dce000ef936e6.jpg",
+    "static/media/nobertechx.jpg": "/static/media/nobertechx.c399ff5a135a8580e390.jpg",
+    "static/media/nobertechx3.jpg": "/static/media/nobertechx3.14adce18884ed59360f3.jpg",
+    "static/media/backg.jpg": "/static/media/backg.c24fdf2c9fc18acecbf0.jpg",
+    "static/media/tech.webp": "/static/media/tech.fa00db30699aece78a9c.webp",
+    "static/media/images.png": "/static/media/images.086c44b7f29040b4fa65.png",
+    "static/media/bg_photo2.png": "/static/media/bg_photo2.30b7f9af79c40f3d4cfd.png",
+    "static/media/passport.jpg": "/static/media/passport.c805b6222bf3b81a576e.jpg",
+    "static/media/logo.jpg": "/static/media/logo.3aa1a4c1059e93697527.jpg",
+    "index.html": "/index.html",
+    "main.9db93f6c.css.map": "/static/css/main.9db93f6c.css.map",
+    "main.84ddc321.js.map": "/static/js/main.84ddc321.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db93f6c.css",
+    "static/js/main.84ddc321.js"
+  ]
+}

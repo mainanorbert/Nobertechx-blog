@@ -6,6 +6,7 @@ import { useAuthContext } from '../../context/ContextProvider'
 import axiosClient from '../../axios/AxiosClient'
 import { useState, useEffect } from 'react'
 import { DefaultPost } from '../posts/DefaultPost'
+import Footer from './Footer'
 
 // import {Route, Link } from 'react-router-dom'
 
@@ -50,8 +51,9 @@ const Sidebar = () => {
   };
 
   return (
-      <div className='mt-1 md:px-2 md:flex block justify-center bg-slate-300'>
-        <div className={`${location.pathname === '/articles' ? ' md:w-6/12 pl-10 bg-slate-400 ' : ''}`} >
+    <div className=''>
+      <div className='mt-1   md:px-2 md:flex block justify-center bg-slate-300 md:mb-[8rem mb-12rem]'>
+        <div className={`${location.pathname === '/articles' ? ' md:w-6/12 h-screen overflow-y-scroll pl-10 bg-slate-400 ' : ''}`} >
 
           <p className='text-center md:text-2xl text-xl font-bold'>Tech Trending</p>
           <div className=' bg-transparent justify-center p-1 rounded-xl'>
@@ -70,7 +72,7 @@ const Sidebar = () => {
             <div className='border-b'>
               <div id={post.id} className='p-1 text-ce'>
                 <p className=' text-green-700 font-bold'>{post.title}</p>
-                <img className='justify-center w-[24rem] h-[22rem]' src={post.image} alt="Tech Image" />
+                <img className='justify-center w-[24rem] h-[20rem]' src={post.image} alt="Tech Image" />
 
                 <span>  <i className='text-xs text-yellow-900'>Posted ({calculateDaysAgo(post.created_at)} days ago)</i></span>
                 <p>
@@ -84,6 +86,8 @@ const Sidebar = () => {
         </div>
 
       </div >
+      {location.pathname ==='/articles'? <Footer/>:''}
+      </div>
 
   )
 }

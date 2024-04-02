@@ -3,8 +3,8 @@ import axios from "axios"
 
 
 const axiosClient = axios.create({
-    baseURL:'https://api.nobertechx.xyz/api'
-    // baseURL:'http://127.0.0.1:8000/api'
+    // baseURL:'https://api.nobertechx.xyz/api'
+    baseURL:'http://127.0.0.1:8000/api'
 });
 
 axiosClient.interceptors.request.use((config)=>{

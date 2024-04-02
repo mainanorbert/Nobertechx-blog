@@ -2,6 +2,7 @@ import React from 'react'
 // import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 import Categories from '../pages/Categories'
+import Footer from './Footer'
 
 const About = () => {
   return (
@@ -32,6 +33,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer/>
+
       
     </>
   )

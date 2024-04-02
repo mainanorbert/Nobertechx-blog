@@ -5,6 +5,7 @@ import '../../mycss.css'
 import { useNavigate } from 'react-router-dom'
 import passport from '../images/passport.jpg'
 import { Helmet } from 'react-helmet';
+import Footer from '../main/Footer'
 
 import { useParams, Link, useLocation } from 'react-router-dom'
 import { resolveMotionValue } from 'framer-motion'
@@ -66,6 +67,7 @@ const PostPage = () => {
   const location = useLocation()
 
   return (
+    <>
     <div className='flex justify-center'>
       <div className='md:w-6/12 bg-slate-400'>
         <div className='text-center font-bold text-xl '>
@@ -81,7 +83,7 @@ const PostPage = () => {
        
         
         
-        <div className='p-1'><img className='justify-center h-[18rem] md:w-10/12 p-1 w-full' src={post.image} alt="Tech Image" /></div>
+        <div className='p-1'><img className='justify-center h-[22rem] md:w-10/12 p-1 w-full' src={post.image} alt="Tech Image" /></div>
         <div className=' md:w-10/12 w-full mt-1'>
           <div>{deleteMessage}</div>
           <div className='bg-slate-500 flex justify-center hover:bg-slate-600 bg-green- mx-1 cursor-pointer hover:text-neutral-300 text-xs rounded p-1'>
@@ -168,7 +170,11 @@ const PostPage = () => {
         </div>
       </div>
 
+      
+
     </div>
+    <Footer/>
+    </>
   )
 }
 
