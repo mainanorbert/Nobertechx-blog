@@ -26,6 +26,16 @@ Nobertechx blog is a website for writing tech articles. Its is meant to inform u
    npm start
 
 ## Backend
-1. Clone repository `optional` (If not done previously when installing frontend)
+1. Clone repository `optional` (If not done previously when installing frontend):
    ```sh
    git clone https://github.com/mainanorbert/Nobertechx-blog.git
+
+2. change directory:
+   ```sh
+   cd Nobertechx-blog/Lara
+
+3. Run Server
+   ```sh
+   php artisan serve
+
+4. Your frontend is now ready to interact with backend
